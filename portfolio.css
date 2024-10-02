@@ -1,0 +1,251 @@
+body 
+{
+   background-color: #111; 
+   text-align: center;
+   font-size: 24px;
+   margin: 0;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    background-color: #14796f;
+    text-transform: uppercase;
+    border-top: .1px solid violet;
+    border-bottom: 1.145px solid violet;
+    border-right: 1.145px solid violet;
+    border-left: 1.145px solid violet;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.yt
+{
+    background-color: #f94348;
+    width: 100px;
+    height: 100px;
+    line-height: 4;
+    margin-right: 5px;
+}
+
+.yt > a
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.tw > a
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.fb > a
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.gplus > a
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.tw
+{
+    background-color: #3095d3;
+    width: 100px;
+    height: 100px;
+    line-height: 4;
+}
+
+.fb
+{
+    background-color: #4668b3;
+    width: 100px;
+    height: 100px;
+    line-height: 4;
+    margin-right: 5px;
+}
+
+.gplus
+{
+    background-color: #d95333;
+    width: 100px;
+    height: 100px;
+    line-height: 4;
+    margin-right: 5px;
+}
+
+.contact,
+.yt,
+.fb,
+.tw,
+.gplus
+{
+    float: left;
+}
+
+#clock
+{
+    background-color: #000;
+    text-shadow:
+    .5px 1px 0 white,
+    0 0 0,
+    0 0 0,
+    1px -.5px 0 white;
+    padding: 25px;
+    letter-spacing: 7px;
+    font-size: 35px;
+}
+
+.option
+{
+    height: 290px;  
+    margin: 22px 0;
+    line-height: 9;    
+    border-radius: 12px;
+}
+
+.row
+{
+    display: inline-block;
+    margin: 60px;
+}
+
+#one
+{
+    background-color: #1a5f18;
+    border: 6px solid #6a4e09;
+}
+
+#one > a:hover
+{
+    background-color: #6a4e09;
+}
+
+#two
+{
+    background-color: #586d8f;
+    border: 6px solid #55205f;    
+}
+
+#two > a:hover
+{
+   background-color: #55205f;    
+}
+
+#three
+{
+    background-color: #55205f;
+    border: 6px solid #586d8f;
+}
+
+#three > a:hover
+{
+    background-color: #586d8f;
+}
+
+#four
+{
+    background-color: #6a4e09;
+    border: 6px solid #1a5f18;
+}
+
+#four > a:hover
+{
+    background-color: #1a5f18;
+}
+
+.contact > address > a
+{
+    margin-right: 14px;
+}
+
+.contact a
+{
+    color: wheat;
+}
+
+.contact a:hover
+{
+    font-weight: 900;
+}
+
+.contact
+{
+    width: 480px;
+    padding: 30px 0;
+}
+
+header
+{
+    background-color: #222;
+}
+
+#content
+{
+    background-color: indianred;
+    padding: 20px;
+    height: 350px;
+}
+
+#content > p
+{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.option > a
+{
+    color: black;
+    display: block;
+    height: 290px;
+    transition: all 1.2s ease-in-out;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.option.underline
+{
+    text-decoration: underline;
+}
+
+.top 
+{
+    float: left;
+    width: 320px;
+    padding: 30px 0;
+}
+
+.top a
+{
+    color: wheat;
+    display: inline-block;    
+}
+
+.top img
+{
+    display: inline-block;
+    width: 220px;
+    height: 190px;
+}
+
+a.language
+{
+    margin: 0 20px;
+}
