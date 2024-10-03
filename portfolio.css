@@ -17,7 +17,7 @@ h1
 {
     background-color: #14796f;
     text-transform: uppercase;
-    border-top: .1px solid violet;
+    border-top: 1px solid violet;
     border-bottom: 1.145px solid violet;
     border-right: 1.145px solid violet;
     border-left: 1.145px solid violet;
@@ -114,7 +114,7 @@ h1
 {
     height: 290px;  
     margin: 22px 0;
-    line-height: 9;    
+    line-height: 12;    
     border-radius: 12px;
 }
 
